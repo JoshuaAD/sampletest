@@ -7,7 +7,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("pushpamu/assignment4")
+       app = docker.build("JoshuaAD/assignment4")
     }
 
     stage('Push image') {
